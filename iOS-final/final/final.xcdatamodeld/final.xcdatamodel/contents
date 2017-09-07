@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Data" representedClassName=".Data" syncable="YES">
+        <attribute name="earnorspend" attributeType="String" syncable="YES"/>
+        <attribute name="kind" attributeType="String" syncable="YES"/>
+        <attribute name="money" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="others" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Data" positionX="-54" positionY="-9" width="128" height="120"/>
+    </elements>
+</model>

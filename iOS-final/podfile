@@ -1,0 +1,9 @@
+platform :ios, "9.0"
+use_frameworks!
+inhibit_all_warnings!
+
+target "final" do
+  	pod "SQLite.swift", "~> 0.10"
+    pod 'FSCalendar' , "~> 2.1.1"
+end
+
